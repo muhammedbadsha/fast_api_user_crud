@@ -11,7 +11,7 @@ class UserCreate(BaseModel):
 
 
 class ImageModel(BaseModel):
-    user_id: int
+    user_id: str
     image_url : str
 
     
